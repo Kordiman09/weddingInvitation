@@ -39,7 +39,7 @@ const Countdown = () => {
     }
 
     timerComponents.push(
-      <span key={interval} className="text-4xl md:text-6xl text-white font-andada mx-2">
+      <span key={interval} className="text-2xl md:text-4xl lg:text-6xl text-white font-andada mx-1 md:mx-2">
         {timeLeft[interval]} {interval}{" "}
       </span>
     );
@@ -47,17 +47,19 @@ const Countdown = () => {
 
   return (
     <div
-      className="relative lg:h-80 p-8 text-center flex items-center justify-center bg-center bg-no-repeat"
+      className="relative p-4 md:p-8 text-center flex items-center justify-center bg-center bg-no-repeat"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover', // Ensures the full image is visible
-        minHeight: '85vh', // Ensures the section covers the full viewport height
+        minHeight: '75vh', // Ensures the section covers most of the viewport height on mobile
         paddingTop: '10%', // Adds some padding to maintain aspect ratio
         paddingBottom: '10%', // Adds some padding to maintain aspect ratio
       }}
     >
-      <div className="absolute inset-0 flex flex-col items-center justify-center bg-wedding-white bg-opacity-50">
-        <h2 className="text-8xl text-wedding-darkBrown font-parisienne mb-4 font-bold">Tiempo para el Gran Dia</h2>
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-wedding-white bg-opacity-50 p-4">
+        <h2 className="text-4xl md:text-6xl lg:text-8xl text-wedding-darkBrown font-parisienne mb-4 font-bold">
+          Tiempo para el Gran Dia
+        </h2>
         <div className="text-wedding-darkBrown">
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}
         </div>
