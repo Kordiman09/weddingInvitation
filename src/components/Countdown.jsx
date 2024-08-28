@@ -57,7 +57,7 @@ const Countdown = () => {
       }}
     >
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-wedding-white bg-opacity-50 p-4">
-        <h2 className="text-4xl md:text-6xl lg:text-8xl text-wedding-darkBrown font-parisienne mb-4 font-bold">
+        <h2 className="text-5xl md:text-6xl lg:text-8xl text-wedding-darkBrown font-parisienne mb-4 font-bold">
           Tiempo para el Gran Dia
         </h2>
         <div className="text-wedding-darkBrown">

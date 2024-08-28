@@ -5,7 +5,7 @@ import giftIcon from '../assets/email.png'; // Example icon for the "lluvia de s
 const Donations = () => {
   return (
     <div
-      className="relative p-8 text-center bg-cover bg-center flex items-center justify-center"
+      className="relative p-8 text-center bg-cover bg-left-bottom sm:bg-left-bottom flex items-center justify-end"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundAttachment: 'fixed',
@@ -38,13 +38,16 @@ const Donations = () => {
 
         {/* Link */}
         <a 
-          href="https://example.com" 
+          href="https://www.amazon.com.mx/wedding/registry/SMBEQ0Z1LRP3" 
           className="text-xl text-wedding-lightBrown hover:underline mt-8 font-andada"
           target="_blank"
           rel="noopener noreferrer"
         >
           Contribuir ahora
         </a>
+        <p className='text-lg text-gray-600 font-andada mb-1'>O</p>
+        <p className='text-lg text-gray-600 font-andada mb-1'>Puedes transferir a la siguiente cuenta</p>
+        <p className='text-lg text-gray-600 font-andada mb-1'>014320200143360241</p>
       </div>
     </div>
   );

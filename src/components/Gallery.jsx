@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
     <div className="bg-wedding-lightGreen py-8 px-4 flex flex-col items-center">
       {/* Large Image Display */}
-      <h3 className="mt-6 text-center text-4xl md:text-6xl lg:text-7xl font-parisienne text-wedding-white">
+      <h3 className="mt-6 text-center text-6xl md:text-7xl lg:text-8xl font-parisienne text-wedding-white">
         Galería de Fotos
       </h3>
       <div className="mt-4 mb-6 md:mb-10 w-full max-w-lg">
