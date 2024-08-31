@@ -33,7 +33,7 @@ const Hero = () => {
         className="text-3xl md:text-2xl lg:text-3xl font-extralight text-wedding-darkBrown font-andada" 
         style={{ height: 'auto' }}
       >
-        01/12/2024
+        01•12•24
       </p>
       
       <style>

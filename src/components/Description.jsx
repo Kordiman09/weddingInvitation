@@ -9,7 +9,7 @@ const Description = () => {
         <div>
           <h2 className="text-6xl md:text-8xl font-parisienne font-normal text-wedding-darkBrown mb-4">Lugar</h2>
           <p className="text-lg font-andada">
-            La boda se llevara acabo en Campo Vida en Arandas. Para consultar la ubicacion, haz click en el enlace de abajo
+            La boda se llevara a cabo en Campo Vida en Arandas. Para consultar la ubicacion, haz click en el enlace de abajo
           </p>
         </div>
         <div className="mt-4">
