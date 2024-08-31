@@ -16,13 +16,13 @@ const Hero = () => {
       }}
     >
       {/* Spacing adjustment for h1 */}
-      <h1 className="text-xs font-parisienne text-white lg:mb-24 md:mb-1 mb-16">
+      <h1 className="text-xs font-parisienne text-wedding-darkBrown lg:mb-24 md:mb-1 mb-16">
           .
       </h1>
 
       {/* Fixed height for h1 with responsive font size */}
       <h1 
-        className="text-6xl md:text-8xl lg:text-9xl font-parisienne text-white lg:mt-1 md: sm:mt-2 mb-8" 
+        className="text-6xl md:text-8xl lg:text-9xl font-parisienne text-wedding-darkBrown lg:mt-1 md: sm:mt-2 mb-8" 
         style={{ height: 'auto' }}
       >
         Ryan & Alicia
@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* Fixed height for p with responsive font size */}
       <p 
-        className="text-3xl md:text-2xl lg:text-3xl font-extralight text-white font-andada" 
+        className="text-3xl md:text-2xl lg:text-3xl font-extralight text-wedding-darkBrown font-andada" 
         style={{ height: 'auto' }}
       >
         01/12/2024

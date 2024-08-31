@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from '../assets/donationBackground.jpg'; // Import the background image
-import giftIcon from '../assets/email.jpg'; // Example icon for the "lluvia de sobres" section
+import giftIcon from '../assets/email2.png'; // Example icon for the "lluvia de sobres" section
 
 const Donations = () => {
   return (
