@@ -39,7 +39,7 @@ const Countdown = () => {
     }
 
     timerComponents.push(
-      <span key={interval} className="text-2xl md:text-4xl lg:text-6xl text-white font-andada mx-1 md:mx-2">
+      <span key={interval} className="text-xl md:text-4xl lg:text-6xl text-white font-andada mx-1 md:mx-2">
         {timeLeft[interval]} {interval}{" "}
       </span>
     );

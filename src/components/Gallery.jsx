@@ -7,7 +7,7 @@ import image5 from '../assets/image5.jpg';
 import image6 from '../assets/image6.jpg';
 
 const Gallery = () => {
-  const images = [image1, image2, image3, image4, image5, image6];
+  const images = [image1, image2, image3, image4, image5];
   const [selectedImage, setSelectedImage] = useState(images[0]);
 
   return (

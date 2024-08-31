@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from '../assets/donationBackground.jpg'; // Import the background image
-import giftIcon from '../assets/email.png'; // Example icon for the "lluvia de sobres" section
+import giftIcon from '../assets/email.jpg'; // Example icon for the "lluvia de sobres" section
 
 const Donations = () => {
   return (
@@ -13,41 +13,42 @@ const Donations = () => {
       }}
     >
       {/* White Overlay */}
-      <div className="bg-wedding-white bg-opacity-80 p-8 md:w-1/2 w-11/12 rounded-lg shadow-lg">
+      <div className="bg-wedding-white bg-opacity-80 p-8 md:w-1/2 w-12/12 rounded-lg shadow-lg">
+        <p className="text-base text-gray-600 font-andada mb-1">
+          El mejor regalo es tu presencia, pero si deseas obsequiarnos algo, te dejamos algunas opciones:
+        </p>
+
         {/* Header */}
-        <h2 className="text-4xl font-andada text-gray-800 mb-2">Mesa de Regalos</h2>
+        <h2 className="text-4xl md:text-4xl lg:text-5xl font-parisienne text-gray-800 mt-3 mb-3 ">Mesa de Regalos</h2>
         
-        {/* Line */}
-        <hr className="border-t-2 border-gray-300 w-1/2 mx-auto mb-6" />
-
-        {/* Sub-header and Icon */}
-        <h3 className="text-7xl font-parisienne text-gray-700 mb-4">Lluvia de sobres</h3>
-        <img src={giftIcon} alt="Gift Icon" className="mx-auto mb-4 w-16 h-16" />
-
-        {/* Text */}
-        <p className="text-lg text-gray-600 font-andada mb-1">
-          Estamos profundamente agradecidos por tu amor y apoyo,
-        </p>
-      
-        <p className="text-lg text-gray-600 font-andada mb-1">
-          todo lo que salga de tu corazon, sera recibido en el nuestro.
-        </p>
-        <p className="text-lg text-gray-600 font-andada mb-10">
-          Hemos preparado una mesa de regalos y una lluvia de sobres para nuestra boda.
-        </p>
-
         {/* Link */}
         <a 
           href="https://www.amazon.com.mx/wedding/registry/SMBEQ0Z1LRP3" 
-          className="text-xl text-wedding-lightBrown hover:underline mt-8 font-andada"
+          className="text-xl text-wedding-lightBrown hover:underline mx-4 font-andada"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Contribuir ahora
+          Obsequiar ahora
         </a>
-        <p className='text-lg text-gray-600 font-andada mb-1'>O</p>
-        <p className='text-lg text-gray-600 font-andada mb-1'>Puedes transferir a la siguiente cuenta</p>
-        <p className='text-lg text-gray-600 font-andada mb-1'>014320200143360241</p>
+
+        {/* Sub-header and Icon */}
+        <h3 className="text-4xl font-parisienne text-gray-700 mt-4 mb-0">Lluvia de sobres</h3>
+
+        {/* Text */}
+        <p className="text-sm text-gray-600 font-andada mt-1 mb-4">
+          esta es la tradicion de dar dinero en efectivo a los novios en un sobre el dia de el evento
+        </p>
+      
+        <img src={giftIcon} alt="Gift Icon" className="mx-auto mb-4 w-auto h-11" />
+
+        <p className="text-bse text-gray-600 font-andada mb-1">
+          Si asi lo prefieres, puedes realizar transferencia
+        </p>
+        <p className="text-lg text-gray-600 font-andada mb-0">
+          SANTANDER
+        </p>
+        <p className='text-base text-gray-600 font-andada mb-1'>RYAN STEVEN MONTGOMERY ENRIQUEZ</p>
+        <p className='text-base text-gray-600 font-andada mb-1'>014320200143360241</p>
       </div>
     </div>
   );

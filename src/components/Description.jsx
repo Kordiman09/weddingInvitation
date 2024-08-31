@@ -7,9 +7,9 @@ const Description = () => {
       {/* Left Side: Text and Link */}
       <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 flex flex-col justify-between">
         <div>
-          <h2 className="text-7xl md:text-8xl font-parisienne font-normal text-wedding-darkBrown mb-4">Lugar</h2>
-          <p className="text-2xl font-andada">
-            La boda se llevara acabo en el Campo Vida en Arandas. Para consultar la ubicacion, haz click en el link de abajo
+          <h2 className="text-6xl md:text-8xl font-parisienne font-normal text-wedding-darkBrown mb-4">Lugar</h2>
+          <p className="text-lg font-andada">
+            La boda se llevara acabo en Campo Vida en Arandas. Para consultar la ubicacion, haz click en el link de abajo
           </p>
         </div>
         <div className="mt-4">
